@@ -3,7 +3,7 @@
 # Race-Bets-Widget
 
 ## Description
-This widget has been based on React technologie followed by Redux for the app's states manipulation. As dev tools I've used redux-logger for the best state's monitoring and testing.
+This widget has been based on React technology followed by Redux for the app's states manipulation. As dev tools I've used redux-logger for the best state's monitoring and testing.
 
 ## Functionality 
 - The widget provides the data from JSON file (in this case from local, not from external API) and displays it by categories on filter;
