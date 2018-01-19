@@ -1,0 +1,175 @@
+body {
+  font-family: Tahoma,Geneva,Kalimati,sans-serif;
+  font-size: 11px;
+}
+/* SIDEBAR STYLE */
+.sidebar {
+  width: 280px;
+  background-color: #333;
+  border-radius: 4px;
+  border: 5px solid #333;
+  color: #fff;
+}
+
+/* RACE CARD STYLE */
+.race-body-list {
+  color: #444;
+  background-color: #fff;
+  width: 100%;
+  
+}
+
+.race-container {
+  width: 100%;
+  position: relative;
+  transition: transform 1s;
+}
+
+.race-header, .race-upper-row {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+    padding: 8px 8px 0;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.race-country {
+  margin-left: 1px;
+    margin-right: 4px;
+    margin-top: -3px;
+}
+
+.race-title {
+  margin-left: 2px;
+  margin-right: 4px;
+  margin-top: -3px;
+}
+
+.race-time {
+  margin-right: 12px;
+  margin-top: -3px;
+  margin-left: auto;
+}
+
+.race-currency {
+  margin-left: 4px;
+}
+
+.race-runners-list {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.race-odds {
+ background: linear-gradient(#ffdd86,#f8ae17); 
+-moz-box-shadow: #ffe8ac 0 1px 0 inset;
+-webkit-box-shadow: #ffe8ac 0 1px 0 inset; 
+box-shadow: #ffe8ac 0 1px 0 inset;
+border: 1px solid #f2c71c; 
+cursor: pointer; 
+border-color: #f2c71c;
+line-height: 11px;
+text-align: center;
+margin-left: auto;
+min-width: 36px;
+margin-right: 4px;
+min-height: 20.5px;
+color: #000;
+text-decoration: none;
+}
+
+.race-odd {
+  position: relative;
+  top: 5px;
+}
+
+.race-racer > img {
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+}
+
+.race-racer-name {
+  margin-left: 5px;
+}
+
+.separator {
+  margin: 0 3px;
+}
+
+.horizontal-separator {
+    height: 1px;
+    background-color: #666;
+    margin: 0px 5px;
+}
+
+.race-results-container {
+  background-color: #fff;
+  color: #0000;
+}
+
+.race-racer {
+  display: flex;
+  list-style: none;
+  padding: 10px 0;
+  background-color: #fff;
+  color:#000;
+  border-bottom: .7px solid #666;
+}
+
+/* FILTER BARS */
+.filter-container {
+  background-image: linear-gradient(#43464a,#2f3236);
+  position: relative;
+  margin: 0 auto;
+  padding: 8px;
+  justify-content: center;
+}
+
+.filter-bar {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1.354;
+}
+
+/* POINTS */
+.category-G {
+  background-color: #3a9200;
+}
+
+.category-J {
+  background-color: #285dd8;
+}
+
+.category-T {
+  background-color: #ff8000;
+}
+
+.point {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  margin-bottom: 6px;
+}
+
+/* BUTTON STYLE */
+
+.filter-bar img {
+  padding: 2px 6px 3px;
+}
+
+.btn-disabled > .point {
+  background-color: #888;
+  opacity: .5;
+}
+
+img[src="http://localhost:3000/silks/"] {
+  display: none;
+}
+
