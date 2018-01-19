@@ -23,6 +23,8 @@ There are some differencies between this solution and solution for external API:
 
 - (IMPORTANT) The time remaining container (right upper corner) displays ONLY the converted data by the UNIX timestamp, it DOESN'T make the countdown between present time and the future event. The reason for that - the provided UNIX timestamp is referenced to the PAST date, not to the future one. For the countdown it's necessary to provide the actual date in the future and substract the current one from it.
 
+- (IMPORTANT) All the icons and silks are attached directly via LOCALHOST (In my case it's https://localhost:3000/). In other systems it may has different port, so be careful.
+
                                      ALL THE INFORMATION BELOW IS A DESCRIPTION OF THE TECHNOLOGIES "BY BOX".
 -----------------------------------------------------------------------------------------------------------------------------------------
                                                 
