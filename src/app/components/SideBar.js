@@ -27,8 +27,11 @@ class Sidebar extends React.Component {
   }
 
   currencyCheck = (aValue, bValue, aCurrency, bCurrency) => {
-    if (aCurrency === "EUR" || bCurrency === "EUR") {
-      return ((aValue * this.props.currency.data) > (bValue * this.props.currency.data)) ? -1 : (((bValue * this.props.currency.data) > (aValue * this.props.currency.data)) ? 1 : 0);
+    if (aCurrency === bCurrency) {
+      return aValue > bValue ? -1 : bValue > aValue ? 1 : 0;
+    }
+    else if (aCurrency === "EUR" || bCurrency !== "EUR") {
+      return (aValue * this.props.currency.data) > bValue ? -1 : bValue > (aValue * this.props.currency.data) ? 1 : 0;
     }
   }
 
