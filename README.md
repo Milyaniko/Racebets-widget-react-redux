@@ -12,7 +12,7 @@ This widget has been based on React technology followed by Redux for the app's s
 
 - The remaining time displays in right upper corner of the container in the most readable format. 
 
-- Clicking to the odds (yellow sqares in front of each name) provides to the external racer's page.
+- Clicking on the odds (yellow sqares in front of each name) provides to the external racer's page.
 
 ## Possible differencies
 There are some differencies between this solution and solution for external API:
