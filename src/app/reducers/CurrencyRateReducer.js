@@ -30,7 +30,7 @@ export default function (state = initialState, action) {
                 isFetching: false,
                 data: null,
                 hasError: true,
-                errorMessage: action.error
+                errorMessage: action.payload
             });
 
         default:

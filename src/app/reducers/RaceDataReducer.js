@@ -1,6 +1,7 @@
 import { FETCH_DATA, FETCH_DATA_SUCCESS, FETCH_DATA_ERROR } from '../utils/ActionTypes';
 
 const initialState = {
+    isFetching: null,
     data: [],
     hasError: false,
     errorMessage: null
@@ -29,7 +30,7 @@ export default function (state = initialState, action) {
                 isFetching: false,
                 data: null,
                 hasError: true,
-                errorMessage: action.error
+                errorMessage: action.payload
             });
 
         default:
